@@ -1,0 +1,71 @@
+:root {
+    --primary-color: goldenrod;
+    --secondary-color:blue;
+    --accent1-color: white;
+    --accent2-color: black;
+    --heading-font: ;
+    --paragraph-font: ;
+}
+
+html {
+    background-color: var(--accent1-color)
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    padding: 1em
+}
+
+img {
+    max-width: 100%
+}
+
+h1, h2, h3
+ {
+    font-family: var(--heading-font);
+    color:black;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color) ;
+    padding: 1em; 
+    background-color: var(--accent1-color);
+}
+
+nav {
+    background-color:var(--accent1-color) ;
+    line-height: 3em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+nav a {
+    padding: 1em;
+    min-width: 70px;
+}
+
+nav a:link,
+nav a:visited {
+    color: blue
+}
+
+nav a:hover {
+    color:black ;
+    background-color: var(--primary-color);
+}
+
